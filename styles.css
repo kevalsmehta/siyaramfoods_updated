@@ -1,0 +1,80 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:#17263a;background:#fff;line-height:1.6}a{color:inherit;text-decoration:none}.container{width:min(1180px,92%);margin:auto}.site-header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid #e0e9f3}.nav-wrap{height:82px;display:flex;align-items:center;gap:28px}.brand img{width:112px;height:78px;object-fit:contain;border-radius:7px;background:#071426}.nav{display:flex;gap:24px;margin-left:auto;font-size:14px;font-weight:600}.nav a:hover{color:#1266d6}.nav-cta{background:#1266d6;color:white;padding:12px 18px;border-radius:999px;font-weight:700;font-size:14px}.menu-toggle{display:none;border:0;background:none;font-size:26px}.hero{min-height:760px;position:relative;display:flex;align-items:center;background:linear-gradient(110deg,#061a0d 0%,#0d3a1d 48%,#1266d6 100%);overflow:hidden}.hero:after{content:"";position:absolute;width:680px;height:680px;border-radius:50%;right:-180px;top:-160px;background:radial-gradient(circle,rgba(143,222,38,.32),transparent 65%)}.hero-overlay{position:absolute;inset:0;background:radial-gradient(circle at 75% 70%,rgba(255,211,73,.14),transparent 32%)}.hero-content{position:relative;z-index:2;color:#fff;padding:90px 0}.eyebrow,.section-kicker{letter-spacing:.16em;font-size:12px;font-weight:800;color:#4aa3ff}.hero h1{font-family:"Playfair Display",Georgia,serif;font-size:clamp(48px,7vw,88px);line-height:1.02;margin:18px 0 24px;max-width:850px}.hero h1 em{color:#55b7ff;font-style:normal}.hero p{max-width:650px;font-size:19px;color:#dbeadf}.hero-actions{display:flex;gap:12px;margin-top:32px}.btn{display:inline-flex;justify-content:center;align-items:center;border:0;border-radius:999px;padding:14px 24px;font-weight:800;cursor:pointer}.btn-primary{background:#55b7ff;color:#08345f}.btn-light{background:#fff;color:#10305f}.hero-stats{display:flex;gap:42px;margin-top:72px}.hero-stats div{display:flex;gap:12px;align-items:center}.hero-stats strong{font-size:13px;color:#55b7ff}.hero-stats span{font-size:13px;color:#d8e7f7}.section{padding:105px 0}.split{display:grid;grid-template-columns:1fr 1fr;gap:80px}.intro h2,.section-heading h2,.quality-box h2,.contact h2{font-family:"Playfair Display",Georgia,serif;font-size:52px;line-height:1.08;margin:16px 0}.intro h2 span,.section-heading h2 span,.quality-box h2 span,.contact h2 span{color:#1266d6}.intro-copy{font-size:17px;color:#596a7d;padding-top:20px}.text-link{display:inline-block;margin-top:15px;color:#1266d6;font-weight:800}.feature-strip{background:#eef6ff;border-top:1px solid #dce8f5;border-bottom:1px solid #dce8f5}.feature-grid{display:grid;grid-template-columns:repeat(4,1fr)}.feature-grid article{padding:38px 28px;border-right:1px solid #dce8f5}.feature-grid article:last-child{border-right:0}.icon{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#d8ecff;color:#1266d6;font-weight:900}.feature-grid h3{margin:16px 0 6px}.feature-grid p,.product-info p,.step p,.quality-points p{margin:0;color:#64768a;font-size:14px}.section-heading{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:48px}.section-heading h2{max-width:680px}.filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}.filter{border:1px solid #d7e3f0;background:white;border-radius:999px;padding:10px 15px;font-weight:700;color:#536257;cursor:pointer}.filter.active,.filter:hover{background:#1266d6;color:#fff;border-color:#1266d6}.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.product-card{border:1px solid #dfe8f2;border-radius:18px;overflow:hidden;background:#fff;transition:.25s;box-shadow:0 5px 20px rgba(18,50,28,.04)}.product-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(18,50,28,.11)}.product-img{height:245px;background:#f4f9ff;display:grid;place-items:center;overflow:hidden}.product-img img{width:100%;height:100%;object-fit:cover}.product-info{padding:22px}.product-info span{font-size:10px;letter-spacing:.14em;font-weight:800;color:#1266d6}.product-info h3{font-family:"Playfair Display",Georgia,serif;font-size:22px;margin:8px 0}.process{background:#071a33;color:#fff}.process .section-kicker{color:#55b7ff}.process h2{color:#fff}.process h2 span{color:#55b7ff}.section-lead{max-width:390px;color:#c8d9ea}.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#29425f;margin-top:50px}.step{background:#071a33;padding:30px;border:1px solid #29425f;min-height:210px}.step b{color:#55b7ff;font-size:13px}.step h3{font-size:20px;margin:18px 0 8px}.step p{color:#b8cbe0}.quality{background:#f3f8ff}.quality-box{display:grid;grid-template-columns:.85fr 1.15fr;gap:90px}.quality-points{display:grid;gap:18px}.quality-points>div{display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #dce7f2}.quality-points strong{color:#1266d6}.quality-points h3{margin:0 0 4px}.cta{background:linear-gradient(110deg,#1266d6,#136d33);color:#fff;padding:75px 0}.cta-inner{display:flex;justify-content:space-between;align-items:center;gap:30px}.cta h2{font-family:"Playfair Display",Georgia,serif;font-size:50px;line-height:1.05;margin:12px 0}.cta .section-kicker{color:#55b7ff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:90px}.contact p{max-width:540px;color:#607286}.contact-detail{margin-top:25px;display:grid;gap:4px}.contact-detail b{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#1266d6}.contact-detail a{font-weight:700}.quote-form{background:#f4f8f4;border-radius:22px;padding:32px;display:grid;gap:18px}.quote-form label{font-size:13px;font-weight:700;display:grid;gap:7px}.quote-form input,.quote-form textarea{font:inherit;border:1px solid #d5e2f0;border-radius:10px;padding:12px;background:#fff;outline:none}.quote-form input:focus,.quote-form textarea:focus{border-color:#1266d6;box-shadow:0 0 0 3px rgba(11,125,53,.1)}.quote-form small{color:#6d7d90}footer{background:#071426;color:#d9e4dc;padding:60px 0 20px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px}.footer-brand img{width:170px;height:75px;object-fit:contain;background:white;border-radius:8px}.footer-grid>div:not(.footer-brand){display:grid;align-content:start;gap:10px}.footer-grid b{color:#55b7ff;margin-bottom:4px}.copyright{border-top:1px solid #263b55;margin-top:50px;padding-top:18px;font-size:12px;color:#7f90a5}.hidden{display:none!important}@media(max-width:900px){.nav{display:none}.nav-cta{display:none}.menu-toggle{display:block;margin-left:auto}.nav.open{position:absolute;top:82px;left:0;right:0;background:white;display:grid;padding:20px 4%;gap:16px;border-bottom:1px solid #e0e9f3}.hero{min-height:680px}.split,.quality-box,.contact-grid{grid-template-columns:1fr;gap:35px}.feature-grid{grid-template-columns:1fr 1fr}.feature-grid article:nth-child(2){border-right:0}.product-grid{grid-template-columns:1fr 1fr}.section-heading,.cta-inner{align-items:flex-start;flex-direction:column}.filters{justify-content:flex-start}.timeline{grid-template-columns:1fr 1fr}}@media(max-width:600px){.brand img{width:112px;height:78px}.hero h1{font-size:48px}.hero-stats{gap:16px;flex-wrap:wrap;margin-top:45px}.hero-stats div{width:45%}.feature-grid,.product-grid,.timeline,.footer-grid{grid-template-columns:1fr}.feature-grid article{border-right:0;border-bottom:1px solid #dce8f5}.intro h2,.section-heading h2,.quality-box h2,.contact h2,.cta h2{font-size:40px}.section{padding:75px 0}.product-img{height:220px}}
+
+/* Remove reference-site watermark area from product photography */
+.product-img{position:relative}
+.product-img:after{
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  width:23%;
+  height:31%;
+  background:rgba(255,255,255,.98);
+  border-bottom-left-radius:14px;
+  pointer-events:none;
+}
+
+/* Logo upgrade */
+.brand{display:flex;align-items:center;min-width:190px}
+.brand img{width:190px;height:72px;object-fit:contain;object-position:left center;filter:drop-shadow(0 4px 10px rgba(18,102,214,.12))}
+.footer-brand img{width:205px;height:82px;object-fit:contain;background:transparent}
+
+/* Spice showcase */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Keep the blue brand direction consistent */
+.hero{background:linear-gradient(110deg,#061a33 0%,#0d3a66 55%,#1266d6 100%)}
+.cta{background:linear-gradient(110deg,#1266d6,#0d4e9d)}
+
+/* Product images should stay fully visible */
+.product-img:after{display:none}
+
+@media(max-width:900px){
+  
+  
+}
+@media(max-width:600px){
+  .brand{min-width:145px}
+  .brand img{width:150px;height:62px}
+  
+  
+  
+}
+
+
+/* Enquiry form feedback */
+.quote-form .btn:disabled{opacity:.65;cursor:wait}
+.form-status{min-height:22px;font-size:13px;font-weight:700}
+.form-status.sending{color:#1266d6}
+.form-status.success{color:#137333}
+.form-status.error{color:#b42318}
+
+.enquiry-actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn-whatsapp{background:#25D366;color:#fff}
+.btn-whatsapp:hover{filter:brightness(.95)}
+@media(max-width:600px){.enquiry-actions{display:grid;grid-template-columns:1fr}.enquiry-actions .btn{width:100%}}
+
+/* Siyaram Foods branding on every product photo */
+.product-img{position:relative;background:#fff}
+.product-img:after{content:"";position:absolute;right:10px;bottom:10px;width:88px;height:38px;background:rgba(255,255,255,.88) url("assets/logo-transparent.png") center/contain no-repeat;border-radius:6px;box-shadow:0 2px 10px rgba(0,0,0,.08);pointer-events:none}
+.product-img img{object-fit:contain;padding:5px}
+@media(max-width:600px){.product-img:after{width:74px;height:32px;right:7px;bottom:7px}}
+
+
+/* Header: use the original logo and place the slogan neatly below it */
+.nav-wrap{min-height:100px;height:auto;padding-top:8px;padding-bottom:8px}
+.brand{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:0;min-width:190px;line-height:1.1}
+.brand img{display:block;width:170px;height:65px;object-fit:contain;object-position:left center;background:transparent;border-radius:0;filter:none}
+.brand-slogan{display:block;margin-top:-2px;margin-left:4px;font-size:11px;line-height:1.2;font-weight:700;letter-spacing:.01em;color:#136d33;white-space:nowrap}
+@media(max-width:900px){.nav-wrap{min-height:90px}.brand{min-width:155px}.brand img{width:150px;height:57px}.brand-slogan{font-size:10px;margin-left:3px}}
